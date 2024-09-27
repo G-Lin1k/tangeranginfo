@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <title>Informasi Mengenai Tangerang</title>
+  <style>
+  .container{
+      margin: auto;
+      display: grid;
+      width: 100%;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas: 
+      "header header header"
+      "menu1 title1 title1"
+      "menu1 main1 main1"
+      "menu1 title2 title2"
+      "menu1 main2 main2"
+      "menu1 title3 title3"
+      "menu1 baris1 baris1"
+      "menu1 baris2 baris2"
+      "menu1 baris3 baris3"
+      "menu1 baris3 baris3"
+      "menu1 baris4 baris4"
+      "comments comments comments"
+      ;
+      gap: 2px;
+      max-width: 1200px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  .flex-menu{
+      background-color: antiquewhite;
+  }
+
+  .header{
+      grid-area: header;
+      background-color: burlywood;
+  }
+  
+  .menu1{
+      grid-area: menu1;
+      background-color: burlywood;
+      display: grid;
+      grid-template-rows: repeat(4, auto);
+  }
+  
+  .title1{
+      grid-area: title1;
+      background-color: rgb(129, 148, 174);
+  }
+
+  .main1{
+      grid-area: main1;
+      background-color: rgb(129, 148, 174);
+  }
+
+  .title2{
+      grid-area: title2;
+      background-color: rgb(231, 202, 164);
+  }
+
+  .main2{
+      grid-area: main2;
+      background-color: rgb(231, 202, 164);
+  }
+
+  .flex-gambar{
+      display: flex;
+      justify-content: space-around;
+      background-color: olivedrab;
+  }
+
+  .flex-gambar > div {
+      margin: 10px;
+      padding: 20px;
+  }
+
+  .flex-gambar img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+  }
+
+  .title3{
+      grid-area: title3;
+      background-color: rgb(169, 135, 156);
+  }
+
+  .baris1{
+      grid-area: baris1;
+      background-color: rgb(169, 135, 156);
+  }
+
+  .baris2{
+      grid-area: baris2;
+      background-color: rgb(169, 135, 156);
+  }
+
+  .baris3{
+      grid-area: baris3;
+      background-color: rgb(169, 135, 156);
+  }
+
+  .baris4{
+      grid-area: baris4;
+      background-color: rgb(169, 135, 156);
+  }
+
+  .comments{
+      grid-area: comments;
+      background-color: rgb(160, 203, 159);
+  }
+
+  </style>
+</head>
+<body>
+  <h align="center">
+    <h1>Informasi Mengenai Tangerang</h1>
+      <h4>
+        <a href="Sejarah.html"></a>
+        <a href="#Sejarah">Sejarah</a>
+        <a href="Geografi.html"></a>    
+        <a href="#Geografi">Geografi</a>
+        <a href="Wisata.html"></a>
+        <a href="#Wisata">Wisata</a>
+      </h4>
+  </h>
+
+  <div class="container">
+
+    <div class="menu1">
+      <div class="flex-menu">
+          <div>Home</div>
+          <div>Sejarah</div>
+          <div>Geografi</div>
+          <div>Wisata</div>
+          <div>Comments</div>
+      </div>
+    </div>
+
+
+    <div class="title1">
+      <h3>Sejarah</h3>
+      <h3 id="Sejarah"></h3>
+    </div>  
+
+    <div class="main1">
+      <div><img src="sejarah tangerang.jpg" alt="sejarah tangerang" height="300" width="300"></p>
+      <div>Kota Tangerang bisa dikatakan kota yang kecil, setelah terjadi pemekaran Tangerang Raya pada 1993 silam. Tangerang resmi memisahkan diri dari Kota Tangerang Selatan dan Kabupaten Tangerang. Kini, ketiga wilayah dengan nama Tangerang tersebut masuk dalam Provinsi Banten yang sebelumnya merupakan wilayah Provinsi Jawa Barat. Dalam buku "Melacak asal muasal Kampung di Kota Tangerang" yang ditulis Burhanudin (2018), nama Tangerang berasal dari kata "tangger" yang dalam bahasa Sunda memiliki arti "tanda". Tangger tersebut merupakan tanda batas kekuasaan kerajaan Banten abad 17 dengan pemerintahan Hindia Belanda. "Ada pula yang menyebut Tangerang berasal dari kata Tanggeran, daerah (tanda) yang dimaksud berada di bagian sebelah barat Sungai Cisadane," kata Burhanudin dalam buku tersebut. Kata kedua sebagai asal mula nama Tangerang adalah kata "perang" yang merujuk pada perjalanan sejarah perbatasan kesultanan Banten dengan Pemerintah VOC yang sering dijadikan medan pertempuran. Lama berselang, penyebutan Tangerang mulai berubah menjadi Tangerang saat wilayah tersebut mulai dikuasai Belanda. Wilayah tersebut kemudian dijaga oleh tentara Belanda yang berasal dari berbagai daerah, salah satunya dari Makassar yang tidak mengenal akhiran. Sehingga kata Tangeran berubah pelafalannya menjadi Tangerang. Penyebutan Tangerang kemudian diresmikan pada masa pendudukan Jepang oleh Kentyo M. Atik Seardi pada 27 Desember 1943. Tanggal tersebut menjadi hari jadi Kabupaten Tangerang hingga saat ini, sebagaimana dikukuhkan dalam Peraturan Daerah Nomor 18 Tahun 1984.
+      </div>
+    </div>  
+   
+
+    <div class="title2">
+      <h3>Geografi</h3>
+      <h3 id="Geografi"></h3>
+    </div>
+
+    <div class="main2">  
+      <div><img src="map tangerang.jpg" alt="map gerografis tangerang" height="300" width="300"></div>
+      <div>Kota Tangerang terletak di bagian barat Provinsi Banten, berbatasan dengan Kota Jakarta di sebelah timur, Kabupaten Tangerang di sebelah selatan, Kabupaten Bogor dan Kabupaten Lebak di sebelah barat, serta Laut Jawa di sebelah utara. Kabupaten Tangerang merupakan salah satu daerah yang menjadi bagian dari wilayah Provinsi Banten. Kabupaten ini terletak tepat di sebelah barat DKI Jakarta. Pusat pemerintahannya berada di Kecamatan Tigaraksa. Total Luas Wilayah: Luas wilayah Kota Tangerang adalah 164,55 km², yang merupakan 1,59% dari luas Provinsi Banten. Kota Terbesar di Provinsi Banten: Kota Tangerang adalah kota terbesar di Provinsi Banten dan ketiga terbesar di wilayah Jabodetabek.
+      </div>
+    </div>
+
+
+    <div class="title3">
+      <h3>Wisata</h3>
+      <h3 id="Wisata"></h3>
+    </div>
+
+    <div class="baris1">
+      <div class="flex-gambar">
+        <div><img src="Museum-Benteng-Heritage.jpg" alt="Museum Benteng Heritage" height="300" width="500"></div>
+        <div><img src="Scientia-Square-Park.jpg" alt="Scientia Square Park" height="300" width="500"></div>
+        <div><img src="Froggy-Edutography-Floating-Castle.jpg" alt="Froggy Edutography Floating Castle" height="250" width="300"></div>
+        <div><img src="Ocean-Park-Water-Adventure.jpg" alt="Ocean Park Water Adventure" height="300" width="450"></div>
+    </div>
+  </div>
+
+  <div class="baris2">
+    <div class="flex-gambar">
+      <div><img src="BSD-Xtreme-Park.jpg" alt="BSD Xtreme Park" height="300" width="400"></div>
+      <div><img src="Taman-Buaya-Tanjung-Pasir.jpg" alt="Taman Budaya Tanjung Pasir" height="300" width="400"></div>
+      <div><img src="The-Breeze.jpg" alt="The Breeze" height="300" width="450"></div>
+      <div><img src="Situ-Bulakan.jpg" alt="Situ Bulakan" height="300" width="400"></div>
+    </div>
+  </div>
+
+
+  <div class="baris3">
+    <div class="flex-gambar">
+      <div><img src="Pulau-Cangkir-Kronjo.jpg" alt="Pulau Cangkir Kronjo" height="300" width="400"></div>
+      <div><img src="Tanah-Tingal.jpg" alt="Tanah Tingal" height="300" width="400"></div>
+      <div><img src="Telaga-Biru-Cisoka.jpg" alt="Telaga Biru Cisoka" height="300" width="400"></div>
+      <div><img src="Situ-Cihuni.jpg" alt="Situ Cihuni" height="300" width="400"></div>
+    </div>
+  </div>
+
+  <div class="baris4">
+    <div class="flex-gambar">
+      <div><img src="Marcopolo-Waterpark.jpg" alt="Marcopolo Waterpark Serpong" height="300" width="400"></div>
+      <div><img src="Taman-Kota-2-BSD.jpg" alt="Taman Kota 2 BSD" height="300" width="400"></div>
+      <div><img src="Little-Jungle-Playground.jpg" alt="Little Jungle Playground" height="300" width="400"></div>
+      <div><img src="Taman-Wisata-Pulau-Situ-Gintung.jpg" alt="Taman Wisata Pulau Situ Gunung" height="300" width="400"></div>
+    </div>
+  </div>
+
+  </h>
+  </hr>
+  <div class="comments">
+    <div id="formkomentar">
+      <form action="">
+        <table border="0">
+          <tr>
+             <td>Nama</td>
+            <td><input type="text" name="nama" id="nama"></input type></td>
+          </tr>
+          <tr>
+           <td>Alamat Email</td>
+            <td><input type="email" name="email" id="email"></input type></td>
+          </tr>
+          <tr>
+            <td>Komentar</td>
+            <td><textarea name="komen" id="komen" cols="30" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="kirim"> <input type="reset" value="delete"></input type></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+
+</body>
+ <h align="right">
+    <footer>
+      Sherine Alessia Indradjaja @2024
+    </footer>
+ </h>
+</html>
